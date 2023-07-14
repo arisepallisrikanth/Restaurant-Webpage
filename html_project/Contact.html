@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+     <meta charset="UTF-8">
+     <meta name="author" content="srikanth">
+     <meta name="description" content="contact form">
+     <link rel="icon" href="favicon.ico" type="image/x-icon">
+     <link rel="stylesheet" href="cssfile.css" type="text/css">
+     <title>contact</title>
+    </head>
+    <body>
+        <nav>
+            <h2>Contact Us</h2>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/#LTS">About LTS</a></li>
+                <li><a href="/#menu">Our Menu</a></li>
+                <li><a href="tacos hours.html">Timings</a></li>
+                </ul>
+            </ul>
+        </nav>
+    
+    <article id="contact">
+        <h3>Our contact form</h3>
+        <form action="https://httpbin.org/get" method="get">
+        <fieldset>
+            <legend>Send us message</legend>
+        
+            <label for="name">Name</label>
+            <input type="text" id="name" name="Name" placeholder="yours name"autocomplete    required="on" autofocus="on"><br>
+            <label for="Email">Email</label>
+            <input type="text" id="Email" name="Email" required="on" placeholder="your email" autocomplete="on"><br>
+            <p><label for="msg">Message</label></p>
+           <textarea  type="text" id="msg" name="message" placeholder="type your message"  cols="10" rows="10"></textarea>
+
+        
+        </fieldset>
+    <button type="submit">Submit</button>
+    <button type="reset">reset</button>
+    <button type="submit" formaction="https://httpbin.org/post" formmethod="post">send</button>
+</form>
+
+    </article>
+    <address>
+
+    </address>
+    <br><li><a href="tel:9652635399">Call to me</a></li>
+
+
+
+
+
+
+
+</body>
+</html>
